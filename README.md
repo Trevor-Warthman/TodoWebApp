@@ -1,3 +1,8 @@
+Harvard CS Course Intro to Mobile Apps with React Native project 0.
+Access app with http://username.github.io/repository/filename.html
+
+
+
 # Project 0
 
 The goal of this project is to practice JavaScript and its paradigms by creating
