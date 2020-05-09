@@ -1,5 +1,5 @@
 Harvard CS Course Intro to Mobile Apps with React Native project 0.
-Access app with http://Trevor-Warthman.github.io/TodoWebApp/index.html
+Access app with http://Trevor-Warthman.github.io/TodoWebApp/
 
 
 
