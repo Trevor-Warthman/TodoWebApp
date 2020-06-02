@@ -47,7 +47,7 @@ function colorCheckBox(id){
 	//disallow a second click
 	checkbox.removeAttribute("onclick")
 	uncheckedCount = uncheckedCount - 1
-	alert("beep")
+	encourage()
 	uncheckedCountSpan.innerHTML = uncheckedCount
 
 	//reassign the checked todo
@@ -57,4 +57,9 @@ function colorCheckBox(id){
 	checkedList.appendChild(checkedTodo)
 
 
+}
+
+//To be added to later
+function encourage(){
+	alert(Good job! You completed your task!)
 }
