@@ -18,7 +18,7 @@ let totalCount = 0
 uncheckedCountSpan.innerHTML = totalCount
 
 function newTodo() {
-	alert(he)
+	alert("he")
 	totalCount += 1
 	uncheckedCount += 1
 
@@ -62,5 +62,5 @@ function colorCheckBox(id){
 
 //To be added to later
 function encourage(){
-	alert(Good job! You completed your task!)
+	alert("Good job! You completed your task!")
 }
