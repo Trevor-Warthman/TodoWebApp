@@ -53,6 +53,7 @@ function colorCheckBox(id){
 	const checkedTodo = document.getElementById(identity)
 	list.removeChild(checkedTodo)
 	checkedList.appendChild(checkedTodo)
+	uncheckedCount -= 1
 
 
 }
