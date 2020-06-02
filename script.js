@@ -61,7 +61,7 @@ function colorCheckBox(id){
 
 //Display random encouragement
 function encourage(){
-	const rand = Math.floor(Math.random() * 10
+	const rand = Math.floor(Math.random() * 10)
 	switch(rand) {
   		case 0:
 			alert("Yay you did it")
