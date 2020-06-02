@@ -47,13 +47,13 @@ function colorCheckBox(id){
 	//disallow a second click
 	checkbox.removeAttribute("onclick")
 	uncheckedCount = uncheckedCount - 1
+	uncheckedCountSpan.innerHTML = uncheckedCount
 
 	//reassign the checked todo
 	const identity = id + "li"
 	const checkedTodo = document.getElementById(identity)
 	list.removeChild(checkedTodo)
 	checkedList.appendChild(checkedTodo)
-	uncheckedCount -= 1
 
 
 }
