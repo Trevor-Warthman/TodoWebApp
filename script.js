@@ -17,8 +17,7 @@ let uncheckedCount = 0
 let totalCount = 0
 uncheckedCountSpan.innerHTML = totalCount
 
-function newTodo() {
-	alert("he")
+function newTodo(){
 	totalCount += 1
 	uncheckedCount += 1
 
