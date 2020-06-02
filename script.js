@@ -47,6 +47,7 @@ function colorCheckBox(id){
 	//disallow a second click
 	checkbox.removeAttribute("onclick")
 	uncheckedCount = uncheckedCount - 1
+	alert("beep")
 	uncheckedCountSpan.innerHTML = uncheckedCount
 
 	//reassign the checked todo
